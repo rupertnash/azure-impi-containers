@@ -4,7 +4,7 @@ Goal: We want a lightweight runtime image and a basic build image that will work
 
 You need the Intel MPI library from (registration required) https://software.intel.com/en-us/intel-mpi-library/
 
-Starting point is the Azure Batch Shipyard (ABS) [recipe for HPCG](https://github.com/Azure/batch-shipyard/tree/master/recipes/HPCG-Infiniband-IntelMPI). Note this image doesn't have compilers etc so is possibly a good fit.
+Starting point is the Azure Batch Shipyard (ABS) [recipe for HPCG](https://github.com/Azure/batch-shipyard/tree/master/recipes/HPCG-Infiniband-IntelMPI). Note this image doesn't have compilers etc. The binary image is here: https://hub.docker.com/r/alfpark/linpack/tags/
 
 I'm going to start with a Dockerfile, but I suspect that [Packer](https://www.packer.io/docs/builders/docker.html) may end up being more suitable.
 

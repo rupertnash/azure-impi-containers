@@ -1,0 +1,4 @@
+s/UsePAM yes/UsePAM no/g
+s/#PermitRootLogin yes/PermitRootLogin yes/g
+s/#RSAAuthentication yes/RSAAuthentication yes/g
+s/#PubkeyAuthentication yes/PubkeyAuthentication yes/g
